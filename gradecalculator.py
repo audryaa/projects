@@ -1,6 +1,9 @@
 marks = int(input("Enter your marks: "))
 
-if marks >= 80:
+if marks <0 or marks>100:
+    print("Invalid marks entered")
+    
+elif marks >= 80:
     print("You scored an A ")
 
 elif marks >= 70:
@@ -14,4 +17,4 @@ elif marks >= 40:
 
 else:
     print("You got a F")
-    
+
